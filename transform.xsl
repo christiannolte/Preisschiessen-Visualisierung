@@ -8,12 +8,12 @@
 	    <link rel="stylesheet" type="text/css" href="formate.css"/>
         </head>
 	    <body>
-<div align="center">
+              <div align="center">
 		<marquee direction="up" scrollamount="1" scrolldelay="1"  height="100%">
         	  <xsl:apply-templates/>
 		  <ergebnisdatum>vorläufiger Zwischenstand vom <xsl:value-of select="@date"/></ergebnisdatum>
                 </marquee>
-</div>
+              </div>
     	    </body>
     	</html>
 </xsl:template>
