@@ -1,5 +1,5 @@
 # Preisschiessen-Visualisierung
-XSLT- transformation for visilisation of exports of the DISAG Optic Score Server (c) software
+XSLT-Transformation für die Visualisierung von Exporten der DISAG Optic Score Server (c) Software
 
 Damit die Transformation funktioniert muss die Zeile
 <xsl:if test="starts-with(@title,'offen aktiv')">
